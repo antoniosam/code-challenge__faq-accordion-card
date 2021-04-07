@@ -58,6 +58,12 @@ body {
                 height: 100%;
                 position: relative;
                 overflow: hidden;
+                .img-woman {
+                    display: block;
+                }
+                .img-woman-small {
+                    display: none;
+                }
                 img {
                     margin-left: -65px;
                 }
@@ -90,13 +96,13 @@ body {
                         position: absolute;
                     }
                     .card-item {
-                        padding: 15px 0px;
+                        padding: 20px 0px;
                     }
                     .card-item-title {
                         margin: 0px;
                         font-weight: 700;
                         font-size: 18px;
-                        color: hsl(237, 12%, 33%);
+                        color: hsl(240, 6%, 50%);
                         .arrow {
                             display: inline-block;
                             transition: all 0.3s linear;
@@ -110,6 +116,7 @@ body {
                     }
                     input:checked + .card-item {
                         .card-item-title {
+                            color: hsl(237, 12%, 33%);
                             .arrow {
                                 -ms-transform: rotate(180deg); /* IE 9 */
                                 transform: rotate(180deg);
@@ -140,6 +147,12 @@ body {
                     img {
                         margin-left: initial;
                         margin-top: -116px;
+                    }
+                    .img-woman {
+                        display: none;
+                    }
+                    .img-woman-small {
+                        display: block;
                     }
                 }
                 .img-box {

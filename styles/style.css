@@ -51,6 +51,10 @@ body {
         height: 100%;
         position: relative;
         overflow: hidden; }
+        .card .card-image .container-images .container-image-woman .img-woman {
+          display: block; }
+        .card .card-image .container-images .container-image-woman .img-woman-small {
+          display: none; }
         .card .card-image .container-images .container-image-woman img {
           margin-left: -65px; }
       .card .card-image .container-images .img-box {
@@ -75,12 +79,12 @@ body {
           opacity: 0;
           position: absolute; }
         .card .card-text .card-text-container .card-list .card-list-item .card-item {
-          padding: 15px 0px; }
+          padding: 20px 0px; }
         .card .card-text .card-text-container .card-list .card-list-item .card-item-title {
           margin: 0px;
           font-weight: 700;
           font-size: 18px;
-          color: #4a4b5e; }
+          color: #787887; }
           .card .card-text .card-text-container .card-list .card-list-item .card-item-title .arrow {
             display: inline-block;
             transition: all 0.3s linear; }
@@ -89,10 +93,12 @@ body {
           padding: 0px;
           transition: all 0.3s linear;
           color: #787887; }
-        .card .card-text .card-text-container .card-list .card-list-item input:checked + .card-item .card-item-title .arrow {
-          -ms-transform: rotate(180deg);
-          /* IE 9 */
-          transform: rotate(180deg); }
+        .card .card-text .card-text-container .card-list .card-list-item input:checked + .card-item .card-item-title {
+          color: #4a4b5e; }
+          .card .card-text .card-text-container .card-list .card-list-item input:checked + .card-item .card-item-title .arrow {
+            -ms-transform: rotate(180deg);
+            /* IE 9 */
+            transform: rotate(180deg); }
         .card .card-text .card-text-container .card-list .card-list-item input:checked + .card-item .card-item-text {
           display: block;
           padding: 10px 0px; }
@@ -111,6 +117,10 @@ body {
         .card .card-image .container-images .container-image-woman img {
           margin-left: initial;
           margin-top: -116px; }
+        .card .card-image .container-images .container-image-woman .img-woman {
+          display: none; }
+        .card .card-image .container-images .container-image-woman .img-woman-small {
+          display: block; }
       .card .card-image .container-images .img-box {
         display: none; }
     .card .card-text {
